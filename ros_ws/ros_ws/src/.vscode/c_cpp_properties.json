@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robcib/ros_ws/devel/include/**",
+        "/home/robcib/catkin_ros/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/robcib/catkin_ros/src/autosim/include/**",
+        "/home/robcib/ros_ws/src/beginner_tutorials/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_sqp/hpipm_catkin/include/**",
+        "/home/robcib/catkin_ros/src/hpp-fcl/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_common/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_controllers/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_estimation/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_gazebo/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_hw/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_interface/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_examples/legged_unitree/legged_unitree_hw/include/**",
+        "/home/robcib/catkin_ros/src/legged_control/legged_wbc/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_pinocchio/ocs2_centroidal_model/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_core/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_ddp/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_ipm/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_robotic_examples/ocs2_legged_robot/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_robotic_examples/ocs2_legged_robot_ros/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_mpc/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_oc/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_test_tools/ocs2_qp_solver/include/**",
+        "/home/robcib/catkin_ros/src/ocs2_robotic_assets/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_robotic_tools/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_ros_interfaces/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_pinocchio/ocs2_self_collision/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_pinocchio/ocs2_self_collision_visualization/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_sqp/ocs2_sqp/include/**",
+        "/home/robcib/catkin_ros/src/ocs2/ocs2_thirdparty/include/**",
+        "/home/robcib/ros_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

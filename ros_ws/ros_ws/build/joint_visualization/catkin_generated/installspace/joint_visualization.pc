@@ -1,0 +1,8 @@
+prefix=/home/robcib/ros_ws/install
+
+Name: joint_visualization
+Description: Description of joint_visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

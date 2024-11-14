@@ -1,0 +1,8 @@
+prefix=/home/robcib/ros_ws/devel
+
+Name: carter_2dnav
+Description: Description of carter_2dnav
+Version: 0.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

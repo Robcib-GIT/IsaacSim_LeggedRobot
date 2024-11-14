@@ -1,0 +1,8 @@
+prefix=/home/robcib/ros_ws/devel
+
+Name: cortex_control_franka
+Description: Description of cortex_control_franka
+Version: 0.1.0
+Cflags: -I/home/robcib/ros_ws/devel/include -I/home/robcib/ros_ws/src/cortex_control_franka/include
+Libs: -L${prefix}/lib -lcortex_control_franka
+Requires: controller_interface cortex_control dynamic_reconfigure franka_hw hardware_interface pluginlib realtime_tools roscpp std_msgs
