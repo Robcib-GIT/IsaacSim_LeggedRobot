@@ -47,6 +47,7 @@ Para reproducir correctamente el script de funcionamiento, se han de seguir los 
 
 **Sugerencia**: Es posible modificar la ruta de movimiento del robot. Para ello, sitúese en la carpeta TFM/Rutas y seleccione la ruta deseada. Como se ha analizado en el trabajo, se recomienda utilizar las rutas 4, 32 y 51, así como la ruta original. Para cambiar la ruta, basta con modificar la lista "waypoints" del script `go1_standalone.py` por los waypoints deseados.
 
-#Resultados
+Resultados
+=============
 Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Esta gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
 Por último, en la carpeta "Vídeos" de este repositorio, se muestran vídeos de las diferentes trayectorias llevadas a cabo por el cuadrúpedo.
