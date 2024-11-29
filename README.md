@@ -4,11 +4,6 @@ En dichos ficheros, se muestra el controlador de un robot cuadrúpedo "Unitree G
 
 [![upm](https://yt3.googleusercontent.com/PHacQih_jiiJ0XCi_6I7VKEIZSuHh7-KGSnESbh9EtK0qAc0kTl0prPstMaOqu8mFHDSjURqIw=s160-c-k-c0x00ffffff-no-rj "upm")](https://yt3.googleusercontent.com/PHacQih_jiiJ0XCi_6I7VKEIZSuHh7-KGSnESbh9EtK0qAc0kTl0prPstMaOqu8mFHDSjURqIw=s160-c-k-c0x00ffffff-no-rj "upm")
 
-
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
-
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
-
 **Table of Contents**
 
 [TOCM]
@@ -26,7 +21,7 @@ Para el correcto funcionamiento de los programas, se requiere tener instalado:
 - Ros Noetic
 
 #Instalación
-
+=============
 1. Clona el repositorio de Github en tu equipo:
 `$git clone https://github.com/JTlotus/TFM_Jorge.git`
 
@@ -41,6 +36,8 @@ Para el correcto funcionamiento de los programas, se requiere tener instalado:
 `$./python.sh -m pip install name_of_package_here`
 
 #Procedimiento
+=============
+
 Para reproducir correctamente el script de funcionamiento, se han de seguir los siguientes pasos:
 
 1. Inicializa "roscore" en la terminal
