@@ -4,12 +4,6 @@ En dichos ficheros, se muestra el controlador de un robot cuadrúpedo "Unitree G
 
 [![upm](https://yt3.googleusercontent.com/PHacQih_jiiJ0XCi_6I7VKEIZSuHh7-KGSnESbh9EtK0qAc0kTl0prPstMaOqu8mFHDSjURqIw=s160-c-k-c0x00ffffff-no-rj "upm")](https://yt3.googleusercontent.com/PHacQih_jiiJ0XCi_6I7VKEIZSuHh7-KGSnESbh9EtK0qAc0kTl0prPstMaOqu8mFHDSjURqIw=s160-c-k-c0x00ffffff-no-rj "upm")
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 Requerimientos
 =============
 Para el correcto funcionamiento de los programas, se requiere tener instalado:
@@ -20,7 +14,7 @@ Para el correcto funcionamiento de los programas, se requiere tener instalado:
 - Cuda 11.8. 
 - Ros Noetic
 
-#Instalación
+Instalación
 =============
 1. Clona el repositorio de Github en tu equipo:
 `$git clone https://github.com/JTlotus/TFM_Jorge.git`
@@ -35,7 +29,7 @@ Para el correcto funcionamiento de los programas, se requiere tener instalado:
 5. Descarga las librerías "Matplotlib" y "Skfuzzy" mediante el siguiente comando:
 `$./python.sh -m pip install name_of_package_here`
 
-#Procedimiento
+Procedimiento
 =============
 
 Para reproducir correctamente el script de funcionamiento, se han de seguir los siguientes pasos:
