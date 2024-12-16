@@ -1,0 +1,32 @@
+waypoints = [
+    np.array([3.50, -2.50, 0.00]),  # Waypoint 1
+    np.array([3.40, -2.10, 0.00]),  # Waypoint 2
+    np.array([1.40, -2.10, 0.00]),  # Waypoint 3
+    np.array([0.90, -1.85, 10.00]),  # Waypoint 4
+    np.array([0.40, -1.60, 15.00]),  # Waypoint 5
+    np.array([-0.10, -1.35, 15.00]),  # Waypoint 6
+    np.array([-0.60, -1.35, 15.00]),  # Waypoint 7
+    np.array([-1.10, -1.10, 30.00]),  # Waypoint 8
+    np.array([-1.20, -0.85, 40.00]),  # Waypoint 9
+    np.array([-1.30, -0.60, 60.00]),  # Waypoint 10
+    np.array([-1.35, -0.45, 75.00]),  # Waypoint 11
+    np.array([-1.35, -0.30, 80.00]),  # Waypoint 12
+    np.array([-1.20, 0.90, 88.00]),  # Waypoint 13
+    np.array([-1.30, 0.90, 90.00]),  # Waypoint 14
+    np.array([-1.30, 0.90, 120.00]),  # Waypoint 15
+    np.array([-1.20, 0.95, 140.00]),  # Waypoint 16
+    np.array([-1.20, 0.95, 160.00]),  # Waypoint 17
+    np.array([-1.00, 0.95, 170.00]),  # Waypoint 18
+    np.array([-0.60, 1.00, 175.00]),  # Waypoint 19
+    np.array([-0.10, 1.20, 175.00]),  # Waypoint 20
+    np.array([0.90, 1.40, 175.00]),  # Waypoint 21
+    np.array([1.90, 1.40, 175.00]),  # Waypoint 22
+    np.array([2.40, 1.40, 175.00]),  # Waypoint 23
+    np.array([2.60, 1.40, 175.00]),  # Waypoint 24
+    np.array([2.60, 1.40, 145.00]),  # Waypoint 25
+    np.array([2.70, 1.70, 100.00]),  # Waypoint 26
+    np.array([2.70, 1.70, 85.00]),  # Waypoint 27
+    np.array([2.80, 2.40, 85.00]),  # Waypoint 28
+    np.array([2.90, 2.90, 85.00]),  # Waypoint 29
+    np.array([2.50, 3.00, 85.00]),  # Waypoint 30
+]
