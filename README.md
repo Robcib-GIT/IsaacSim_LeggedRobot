@@ -45,7 +45,7 @@ Para reproducir correctamente el script de funcionamiento, se han de seguir los 
 
 **Atención**: Puede que al iniciar la simulación, IsaacSim tarde en arrancar. En algunos casos, suele aparecer una ventana de error  para cancelar la simulación. Ignora estas advertencias y sigue con la prueba hasta que comience. Es necesario mover la cámara nada más comenzar, puesto que la posición inicial se encuentra tapada con una pared.
 
-**Sugerencia**: Es posible modificar la ruta de movimiento del robot. Para ello, sitúese en la carpeta TFM/Rutas y seleccione la ruta deseada. Como se ha analizado en el trabajo, se recomienda utilizar las rutas 4, 32 y 51, así como la ruta original. Para cambiar la ruta, basta con modificar la lista "waypoints" del script `go1_standalone.py` por los waypoints deseados.
+**Sugerencia**: Es posible modificar la ruta de movimiento del robot. Para ello, sitúese en la carpeta TFM/Rutas y seleccione la ruta deseada. Para cambiar la ruta, basta con modificar la lista "waypoints" del script `go1_standalone.py` por los waypoints deseados.
 
 Resultados
 =============
