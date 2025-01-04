@@ -43,11 +43,12 @@ Para reproducir correctamente el script de funcionamiento, se han de seguir los 
 
 4. Disfruta de la simulación!
 
-**Atención**: Puede que al iniciar la simulación, IsaacSim tarde en arrancar. En algunos casos, suele aparecer una ventana de error  para cancelar la simulación. Ignora estas advertencias y sigue con la prueba hasta que comience. Es necesario mover la cámara nada más comenzar, puesto que la posición inicial se encuentra tapada con una pared.
+**Atención**: Puede que, al iniciar la simulación, IsaacSim tarde en arrancar. En algunos casos, suele aparecer una ventana de error para cancelar la simulación. Ignora estas advertencias y sigue con la prueba hasta que comience. Es necesario mover la cámara nada más comenzar, puesto que la posición inicial se encuentra tapada con una pared.
 
 **Sugerencia**: Es posible modificar la ruta de movimiento del robot. Para ello, sitúese en la carpeta TFM/Rutas y seleccione la ruta deseada. Para cambiar la ruta, basta con modificar la lista "waypoints" del script `go1_standalone.py` por los waypoints deseados.
 
 Resultados
 =============
-Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Esta gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
+Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Estas gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
 Por último, en la carpeta "Vídeos" de este repositorio, se muestran vídeos de las diferentes trayectorias llevadas a cabo por el cuadrúpedo.
+
