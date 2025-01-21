@@ -1,6 +1,6 @@
-# TFM_Jorge
+# Evaluación de marcha de robot cuadrúpedo en entornos de desastre
 Este repositorio contiene los principales archivos que conforman el TFM "*Evaluación de marcha de robot cuadrúpedo en entornos de desastre*" desarrollado en la Universidad Politécnica de Madrid. 
-En dichos ficheros, se muestra el controlador de un robot cuadrúpedo "Unitree Go1" que permite la navegación del mismo en un entorno con obstáculos. Su funcionamiento se basa en el seguimiento de waypoints desde un punto inicial "A" hasta un punto final "B". Además, en el repositorio se encuentra el mapa de pruebas utilizado, el workspace de ROS que se ha usado y varios vídeos mostrando el funcionamiento del robot.
+En dichos ficheros, se muestra el controlador de un robot cuadrúpedo "Unitree Go1" que permite la navegación del mismo en un entorno con obstáculos. Su funcionamiento se basa en el seguimiento de una lista de waypoints desde un punto inicial "A" hasta un punto final "B". Además, en el repositorio se encuentran los mapas de pruebas diseñados, el workspace de ROS Noetic utilizado para realizar un breve análisis cinemático, un planificador de trayectorias y varios vídeos mostrando el funcionamiento del robot.
 
 [![upm](https://yt3.googleusercontent.com/PHacQih_jiiJ0XCi_6I7VKEIZSuHh7-KGSnESbh9EtK0qAc0kTl0prPstMaOqu8mFHDSjURqIw=s160-c-k-c0x00ffffff-no-rj "upm")](https://yt3.googleusercontent.com/PHacQih_jiiJ0XCi_6I7VKEIZSuHh7-KGSnESbh9EtK0qAc0kTl0prPstMaOqu8mFHDSjURqIw=s160-c-k-c0x00ffffff-no-rj "upm")
 
