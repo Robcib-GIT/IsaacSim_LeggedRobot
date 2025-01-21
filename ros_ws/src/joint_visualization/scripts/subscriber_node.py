@@ -23,7 +23,9 @@ joint_data = {
 }
 
 def pose_callback(msg: JointState):
+    # Se comprueba si se han recibido 12 mensajes (correspondientes con las articulaciones del robot)
     if len(msg.position) == 12 and len(msg.velocity) == 12 and len(msg.effort) == 12:
+        # Se agregan los valores obtenidos en el diccionario
         joint_names = list(joint_data.keys())
         for i in range(12):
             joint_data[joint_names[i]]['position'].append(msg.position[i])
@@ -46,7 +48,7 @@ def plot_joint_positions():
         'FL Hip Position', 'FR Hip Position', 'RL Hip Position', 'RR Hip Position',
         'FL Thigh Position', 'FR Thigh Position'
     ]
-
+    # Gráfico
     for i in range(6):
         plt.subplot(2, 3, i + 1)
         plt.plot(positions[i][50:], label=labels[i])
@@ -59,7 +61,7 @@ def plot_joint_positions():
     plt.suptitle('Joint Positions Over Time (1)')
     plt.tight_layout(rect=[0, 0, 1, 0.96])
     plt.show(block=False)
-
+    # Crear la segunda figura con 2 filas y 3 columnas (6 subgráficos)
     plt.figure(figsize=(18, 8))
     positions = [
         joint_data['RL_thigh']['position'], joint_data['RR_thigh']['position'],
@@ -70,7 +72,7 @@ def plot_joint_positions():
         'RL Thigh Position', 'RR Thigh Position', 'FL Calf Position', 'FR Calf Position',
         'RL Calf Position', 'RR Calf Position'
     ]
-
+    # Gráfico
     for i in range(6):
         plt.subplot(2, 3, i + 1)
         plt.plot(positions[i][50:], label=labels[i])
@@ -85,6 +87,7 @@ def plot_joint_positions():
     plt.show()
 
 def save_data_as_json():
+    #Creación carpeta donde se guarda.
     output_directory = "data_files"
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
