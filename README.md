@@ -50,5 +50,10 @@ Para reproducir correctamente el script de funcionamiento, se han de seguir los 
 Resultados
 =============
 Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Estas gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
-Por último, en la carpeta "Vídeos" de este repositorio, se muestran vídeos de las diferentes trayectorias llevadas a cabo por el cuadrúpedo.
+
+Elementos multimedia
+=============
+A continuación, se pone a disposición un enlace con el canal de Youtube del proyecto, donde se pueden observar los vídeos de las diferentes pruebas realizadas: [Enlace al canal de youtube](https://www.youtube.com/channel/UCgoBx4u17_1CNACcc3sLeRA)
+
+En dicho canal, se pueden observar varias listas de reproducción correspondientes a todos los escenarios analizados durante el proyecto. Además, se muestra un vídeo de la política de locomoción entrenada con IsaacLab.
 
