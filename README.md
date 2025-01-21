@@ -53,7 +53,19 @@ Para reproducir correctamente el script de funcionamiento, se han de seguir los 
 
 Resultados
 =============
-Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Estas gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
+Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Estas gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. 
+
+![puntos_visitados_nave](https://github.com/user-attachments/assets/2da06b9b-fe87-4482-91c6-e8e156a97058)
+
+
+![errores_waypoints_nave](https://github.com/user-attachments/assets/e337fb8f-e838-4f99-ae35-c2fe62094a92)
+
+
+
+Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
+
+![Nave_joints_position_1](https://github.com/user-attachments/assets/d9793afa-5d04-4ef2-90ee-47e2ce503b90)
+
 
 Elementos multimedia
 =============
