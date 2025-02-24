@@ -1,16 +1,14 @@
-# Evaluación de marcha de robot cuadrúpedo en entornos de desastre
-Este repositorio contiene los principales archivos que conforman el TFM "*Evaluación de marcha de robot cuadrúpedo en entornos de desastre*" desarrollado en la Universidad Politécnica de Madrid. 
-En dichos ficheros, se muestra el controlador de un robot cuadrúpedo "Unitree Go1" que permite la navegación del mismo en un entorno con obstáculos. Su funcionamiento se basa en el seguimiento de una lista de waypoints desde un punto inicial "A" hasta un punto final "B". Además, en el repositorio se encuentran los mapas de pruebas diseñados, el workspace de ROS Noetic utilizado para realizar un breve análisis cinemático, un planificador de trayectorias y varios vídeos mostrando el funcionamiento del robot.
-
-
+# Evaluation of quadruped robot gait in disaster environments
+This repository contains the main files that make up the TFM "*Evaluation of quadruped robot gait in disaster environments*" developed at the Polytechnic University of Madrid.
+These files show the controller of a quadruped robot "Unitree Go1" that allows the robot to navigate in an environment with obstacles. Its operation is based on following a list of waypoints from a start point "A" to a final point "B". In addition, the repository contains the designed test maps, the ROS Noetic workspace used to perform a brief kinematic analysis, a trajectory planner and several videos showing the robot's operation.
 
 https://github.com/user-attachments/assets/daa4d364-9b8e-428e-b577-c4ccabf2ac88
 
 
 
-Requerimientos
+Requirements
 =============
-Para el correcto funcionamiento de los programas, se requiere tener instalado:
+For the correct operation of the programs, it is required to have installed:
 
 - Ubuntu 20.04
 - Isaac Sim 4.2 
@@ -18,43 +16,42 @@ Para el correcto funcionamiento de los programas, se requiere tener instalado:
 - Cuda 11.8. 
 - Ros Noetic
 
-Instalación
+Installation
 =============
-1. Clona el repositorio de Github en tu equipo:
+1. Clone the Github repository to your computer:
 `$git clone https://github.com/JTlotus/TFM_Jorge.git`
 
-2.  Sitúa la carpeta "TFM" dentro de tu carpeta de instalación de IsaacSim
+2. Place the "TFM" folder inside your IsaacSim installation folder
 `$cd .local/share/ov/pkg/isaac-sim-4.2.0`
 
-3. Copia el workspace "ros_ws" en el escritorio y compílalo.
+3. Copy the "ros_ws" workspace to your desktop and compile it.
 
-4. Sigue los pasos de [instalación del entorno Python](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_python.html "link title") para crear correctamente el entorno de trabajo.
+4. Follow the steps in [Installing the Python Environment]](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_python.html "link title") para crear correctamente el entorno de trabajo.
 
-5. Descarga las librerías "Matplotlib" y "Skfuzzy" mediante el siguiente comando:
+5. Download the "Matplotlib" and "Skfuzzy" libraries using the following command:
 `$./python.sh -m pip install name_of_package_here`
 
-Procedimiento
+Procedure
 =============
 
-Para reproducir correctamente el script de funcionamiento, se han de seguir los siguientes pasos:
+To correctly reproduce the working script, the following steps must be followed:
 
-1. Inicializa "roscore" en la terminal
-2. Activa el nodo de ROS. Dicho nodo se encuentra en ros_ws/src/joint_visualization/scripts
+1. Initialize "roscore" in the terminal
+2. Activate the ROS node. This node is located at ros_ws/src/joint_visualization/scripts
 `$python plot_node.py`
 
-3. Inicializa el script de funcionamiento desde la carpeta de instalación de IsaacSim:
+3. Initialize the running script from the IsaacSim installation folder:
 `$./python.sh TFM/go1_standalone.py`
 
-4. Disfruta de la simulación!
+4. Enjoy the simulation!
 
-**Atención**: Puede que, al iniciar la simulación, IsaacSim tarde en arrancar. En algunos casos, suele aparecer una ventana de error para cancelar la simulación. Ignora estas advertencias y sigue con la prueba hasta que comience. Es necesario mover la cámara nada más comenzar, puesto que la posición inicial se encuentra tapada con una pared.
+**Note**: IsaacSim may take a while to start when you start the simulation. In some cases, an error window will appear asking you to cancel the simulation. Ignore these warnings and continue with the test until it starts. It is necessary to move the camera as soon as it starts, since the initial position is covered by a wall.
 
-**Sugerencia**: Es posible modificar la ruta de movimiento del robot. Para ello, sitúese en la carpeta TFM/Rutas y seleccione la ruta deseada. Para cambiar la ruta, basta con modificar la lista "waypoints" del script `go1_standalone.py` por los waypoints deseados.
+**Tip**: It is possible to modify the robot's movement path. To do this, go to the TFM/Routes folder and select the desired path. To change the path, simply modify the "waypoints" list of the `go1_standalone.py` script with the desired waypoints.
 
-Resultados
+Results
 =============
-Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resultados” con varias gráficas de la trayectoria implementada. Estas gráficas muestran el recorrido llevado a cabo en la simulación, así como el error existente en cada waypoint. 
-
+Inside your IsaacSim installation folder, a “Results” folder will be generated with several graphs of the implemented path. These graphs show the path taken in the simulation, as well as the error at each waypoint.
 ![puntos_visitados_nave](https://github.com/user-attachments/assets/2da06b9b-fe87-4482-91c6-e8e156a97058)
 
 
@@ -62,14 +59,13 @@ Dentro de tu carpeta de instalación de IsaacSim se generará una carpeta“Resu
 
 
 
-Si se detiene el nodo de ROS, se observarán las gráficas de las posiciones de las articulaciones que el robot presenta a lo largo del recorrido.
+If the ROS node is stopped, graphs of the robot's joint positions along the path will be observed.
 
 ![Nave_joints_position_1](https://github.com/user-attachments/assets/d9793afa-5d04-4ef2-90ee-47e2ce503b90)
 
 
-Elementos multimedia
+Multimedia elements
 =============
-A continuación, se pone a disposición un enlace con el canal de Youtube del proyecto, donde se pueden observar los vídeos de las diferentes pruebas realizadas: [Enlace al canal de youtube](https://www.youtube.com/channel/UCgoBx4u17_1CNACcc3sLeRA)
+Below is a link to the project's YouTube channel, where you can watch videos of the different tests carried out: [Link to the YouTube channel](https://www.youtube.com/channel/UCgoBx4u17_1CNACcc3sLeRA)
 
-En dicho canal, se pueden observar varias listas de reproducción correspondientes a todos los escenarios analizados durante el proyecto. Además, se muestra un vídeo de la política de locomoción entrenada con IsaacLab.
-
+On this channel, you can see several playlists corresponding to all the scenarios analyzed during the project. In addition, a video of the locomotion policy trained with IsaacLab is shown.
